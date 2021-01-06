@@ -1,10 +1,10 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
   name: "ApertureCLI",
   platforms: [
-    .macOS(.v10_12)
+    .macOS(.v10_13)
   ],
   products: [
     .executable(
@@ -15,7 +15,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/getdebrief/Aperture", from: "0.4.1")
+    .package(url: "https://github.com/getdebrief/Aperture", from: "0.4.4")
   ],
   targets: [
     .target(
