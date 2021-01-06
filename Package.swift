@@ -15,7 +15,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/getdebrief/Aperture", from: "0.4.4")
+    .package(url: "https://github.com/getdebrief/Aperture", from: "0.4.5")
   ],
   targets: [
     .target(

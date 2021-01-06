@@ -231,8 +231,8 @@ extension String {
   }
 }
 
-func toJson<T>(_ data: T) throws -> String {
-  let json = try JSONSerialization.data(withJSONObject: data)
+func toJson<T: Codable>(_ data: T) throws -> String {
+    let json = try JSONEncoder().encode(data)
   return String(data: json, encoding: .utf8)!
 }
 // MARK: -
