@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "Aperture",
-        "repositoryURL": "https://github.com/wulkano/Aperture",
+        "repositoryURL": "https://github.com/getdebrief/Aperture",
         "state": {
           "branch": null,
-          "revision": "2447e76fac46f3317544a367f942356f4f5df21c",
-          "version": "0.2.0"
+          "revision": "81722aebd3b1a7bc46a7c15868bf35e8db26551b",
+          "version": "0.4.1"
         }
       }
     ]
