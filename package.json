@@ -10,8 +10,7 @@
   "scripts": {
     "test": "xo && ava",
     "build": "swift build --configuration=release --static-swift-stdlib -Xswiftc '-target' -Xswiftc 'x86_64-apple-macosx10.12' && mv .build/release/aperture .",
-    "prepublish": "npm run build",
-    "preinstall": "yarn run build"
+    "prepublish": "npm run build"
   },
   "files": [
     "index.js",
