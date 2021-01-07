@@ -1,5 +1,5 @@
 {
-  "name": "aperture",
+  "name": "@getdebrief/aperture",
   "version": "5.2.7",
   "description": "Record the screen on macOS",
   "license": "MIT",
