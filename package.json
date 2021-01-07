@@ -1,6 +1,6 @@
 {
   "name": "aperture",
-  "version": "5.2.6",
+  "version": "5.2.7",
   "description": "Record the screen on macOS",
   "license": "MIT",
   "repository": "getdebrief/aperture-node",
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "electron-util": "^0.14.2",
-    "execa": "^1.0.0",
+    "execa": "^5.0.0",
     "file-url": "^2.0.2",
     "macos-version": "^5.0.0",
     "tempy": "^0.2.1"
