@@ -1,6 +1,6 @@
 {
   "name": "@getdebrief/aperture",
-  "version": "5.2.7",
+  "version": "5.2.8",
   "description": "Record the screen on macOS",
   "license": "MIT",
   "repository": "getdebrief/aperture-node",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "build": "swift build --configuration=release --static-swift-stdlib -Xswiftc '-target' -Xswiftc 'x86_64-apple-macosx10.12' && mv .build/release/aperture .",
+    "build": "swift build --configuration=release -Xswiftc '-target' -Xswiftc 'x86_64-apple-macosx10.12' && mv .build/release/aperture .; cp ./aperture app-aperture; install_name_tool -rpath \"/usr/lib/swift\" \"@executable_path/../../../swift-libs\" ./app-aperture",
     "prepublish": "npm run build"
   },
   "files": [
