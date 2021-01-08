@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "build": "swift build --configuration=release -Xswiftc '-target' -Xswiftc 'x86_64-apple-macosx10.12' && mv .build/release/aperture .; cp ./aperture app-aperture; install_name_tool -rpath \"/usr/lib/swift\" \"@executable_path/../../../swift-libs\" ./app-aperture",
+    "build": "swift build --configuration=release -Xswiftc '-target' -Xswiftc 'x86_64-apple-macosx10.12' && mv .build/release/aperture .",
     "prepublish": "npm run build"
   },
   "files": [
